@@ -15,7 +15,7 @@ describe('ConvertPLNtoUSD', () => {
   });
 
   it('should return NaN when input is empty', () => {
-    expect(convertPLNToUSD('')).toBeNaN();
+    expect(convertPLNToUSD()).toBeNaN();
   });
 
   it('should return NaN when input is other than number and string', () => {
